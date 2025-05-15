@@ -1,7 +1,5 @@
 package Sesion_01.Reto_01;
 
-import java.util.Scanner;
-
 public class Paciente {
     //Atributos
     String nombre;
