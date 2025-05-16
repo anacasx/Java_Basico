@@ -1,0 +1,50 @@
+Index: Sesion_01/Reto_02/Principal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Sesion_01/Reto_02/Principal.java b/Sesion_01/Reto_02/Principal.java
+new file mode 100644
+--- /dev/null	(date 1747292098370)
++++ b/Sesion_01/Reto_02/Principal.java	(date 1747292098370)
+@@ -0,0 +1,12 @@
++package Sesion_01.Reto_02;
++
++public class Principal {
++    public static void main(String[] args) {
++        //Objetos
++        Entrada entrada1 = new Entrada("Carnaval", 200);
++        Entrada entrada2 = new Entrada("Concierto", 1500);
++
++        entrada1.mostrarInformacion();
++        entrada2.mostrarInformacion();
++    }
++}
+Index: Sesion_01/Reto_02/Entrada.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Sesion_01/Reto_02/Entrada.java b/Sesion_01/Reto_02/Entrada.java
+new file mode 100644
+--- /dev/null	(date 1747292036514)
++++ b/Sesion_01/Reto_02/Entrada.java	(date 1747292036514)
+@@ -0,0 +1,18 @@
++package Sesion_01.Reto_02;
++
++public class Entrada {
++    //Atributos
++    String nombre;
++    double precio;
++
++    //Constructor
++    public Entrada(String nombre, double precio) {
++        this.nombre = nombre;
++        this.precio = precio;
++    }
++
++    //Método
++    public void mostrarInformacion() {
++        System.out.println("Evento: " + nombre + " | Precio: $" + precio);
++    }
++}
