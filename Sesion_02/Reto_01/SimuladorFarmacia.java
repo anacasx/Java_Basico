@@ -20,10 +20,10 @@ public class SimuladorFarmacia {
         //Cálculo
         double total = precio * cantidad;
 
-        boolean aplicaDescuento = total >= 500;
+        var aplicaDescuento = total > 500;
 
         double descuento = aplicaDescuento ? total * 0.15 : 0;
 
-        System.out.println("Medicamento: " + nombre + "\nCantidad: " + cantidad + "\nPrecio unitario: $" + precio + "\nTotal sin descuento: $" + total + "\n¿Aplica descuento?: " + aplicaDescuento + "\nDescuento: $" + descuento + "\nTotal a pagar: $" + (total - descuento));
+        System.out.println("===Resumen===\nMedicamento: " + nombre + "\nCantidad: " + cantidad + "\nPrecio unitario: $" + precio + "\nTotal sin descuento: $" + total + "\n¿Aplica descuento?: " + aplicaDescuento + "\nDescuento: $" + descuento + "\nTotal a pagar: $" + (total - descuento));
     }
 }
