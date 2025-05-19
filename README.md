@@ -2,12 +2,9 @@
 
 > Portafolio de Retos de mi curso de **Java Básico** con **BEDU**.
 
-![Java Logo](https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg)
 
 Este repositorio contiene ejercicios prácticos y retos diseñados para fortalecer mis conocimientos en **Java**.
 
-
-## 🏷️ Badges
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/anacasx/Java_Basico)
 ![GitHub last commit](https://img.shields.io/github/last-commit/anacasx/Java_Basico)
