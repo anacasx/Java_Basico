@@ -1,9 +1,9 @@
 # 🟡 Java_Basico
 
-> Portafolio de Retos de mi curso de **Java Básico** con **BEDU**.
+Portafolio de Retos de mi curso de **Java Básico** con **BEDU**.
 
 
-Este repositorio contiene ejercicios prácticos y retos diseñados para fortalecer mis conocimientos en **Java**.
+> Este repositorio contiene ejercicios prácticos y retos diseñados para fortalecer mis conocimientos en **Java**.
 
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/anacasx/Java_Basico)
